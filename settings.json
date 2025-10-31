@@ -2,7 +2,8 @@
     "[python]": {
         "editor.bracketPairColorization.enabled": false,
         "editor.guides.bracketPairs": false,
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
@@ -84,4 +85,5 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "workbench.colorTheme": "AMOLED Black Shiny",
 }

@@ -1,7 +1,8 @@
 ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="my_theme"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
 plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)
@@ -70,3 +71,18 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Set PYTHONPATH
+export PYTHONPATH="/Users/alexis/code/Alex-gitacc/03-Decision-Science:$PYTHONPATH"
+
+# Aliases
+alias cdproton="/Users/alexis/Library/CloudStorage/ProtonDrive-alexis.kipiani@protonmail.com-folder"
+
+# Change color of ls command
+export CLICOLOR=1
+export LSCOLORS=Cxfxcxdxbxegedabagacad
+
+zstyle ':completion:*' list-colors "${(s.:.)LSCOLORS}"
+
+# Default
+#export LSCOLORS=exfxcxdxbxegedabagacadah
